@@ -1,0 +1,29 @@
+nadav366
+205457534
+Nadav Har-tuv
+I talked about the ex with Guy Katz, Yair Shemer, Itay Tayar and Ortal Glatt.
+
+Completion project for the course.
+I built a game "four in a row", the game object, the graphics,
+and the artificial user.
+
+###############################
+#     General structure-      #
+###############################
+
+I chose not to split the game object into more classes, such as "board" or
+"disk" because it would seem to me only cumbersome and unnecessary.
+
+So I have a very simple structure -
+one class for the "brain" of the game.
+A class for the artificial user,
+and a class that coordinates all the graphics of the game.
+
+The entire game is played from one file, which sits outside the library.
+All images and files used by the software within the game folder.
+
+The game graphics are based on three screens -
+user selection, color selection and game screen.
+
+The game itself is built from a grid of buttons - images that the user can
+click on each of them to select a column.
